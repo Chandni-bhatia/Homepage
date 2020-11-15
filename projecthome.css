@@ -1,0 +1,95 @@
+
+.logo-image img{
+    float: left;
+    width: 200px;
+    height: 100px;
+
+}
+
+.nav-item{
+    padding: 15px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#container {
+    display: flex;
+    flex-wrap:wrap;
+  }
+  #container > div {
+      background-color: bisque;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding:12px;
+    width: 150px;
+    height: 120px;
+    align-items: center;
+  }
+
+  .oval {
+    height: 300px;
+    width: 850px;
+    background-color: rgb(252, 250, 248);
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .circular--square {
+    border-radius: 50%;
+    background-color: beige;
+  }
+
+  .oval2 {
+    height: 500px;
+    width: 1400px;
+    background-color:rgb(252, 250, 248);
+    border-radius: 50%;
+    padding: 20px;
+    rotate: right;
+  }
+
+  .oval3 {
+    height: 400px;
+    width: 1200px;
+    background-color:rgb(252, 250, 248);
+    border-radius: 50%;
+    padding: 20px;
+    rotate: right;
+  }
+
+  
+  .oval4 {
+    height: 300px;
+    width: 600px;
+    background-color:rgb(252, 250, 248);
+    border-radius: 50%;
+    padding: 20px;
+    rotate: right;
+  }
+
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: beige;
+  }
+
+  .circular--landscape2 {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color:beige;
+  }
+  
+  
